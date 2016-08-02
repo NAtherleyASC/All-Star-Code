@@ -1,0 +1,20 @@
+reenBanner {
+	height:50%px;
+	width:100%;
+	margin:auto;
+	background-color: rgb(91, 195, 163);
+	margin-top:-10px;
+}
+#circleDiv{
+	height: 130px;
+	width: 130px;
+	margin: auto;
+	border-radius: 100%;
+	margin-top: -55px;
+	background-image: url("http://66.media.tumblr.com/a15ceeaa85047e241791198404180047/tumblr_inline_nqg31mlwci1re7o24_100.png");
+}
+body {
+	text-align:center;
+	font-family: "Arial";
+	color: rgb(91, 195, 163);
+}
