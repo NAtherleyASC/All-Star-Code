@@ -30,5 +30,15 @@ $('#search').click(function(){
 
 
 function generateIframes(arrID){
-	
+	for (var i =0; i < arrID.length; i++){
+		
+		var ifrm = document.createElement("iframe");
+		ifrm.setAttribute("width", "300");
+		ifrm.setAttribute("height", "80");
+		ifrm.setAttribute("frameboarder", "0");
+		ifrm.setAttribute("allowtransparency", "true");
+		ifrm.setAttribute("src", "https://embed.spotify.com/?uri=spotify:track:" + arrID[i]);
+		document.body.appendChild(ifrm);
+
+	}
 }
